@@ -1,0 +1,93 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to top, #87ceeb, #ffffff);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    padding: 10px 15px;
+    border: 2px solid #00aaff;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    width: 250px;
+    font-size: 16px;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #00aaff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    transition: background-color 0.3s;
+}
+
+.input-group button:hover {
+    background-color: #0077cc;
+}
+
+#weather {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+}
+
+#location {
+    font-size: 24px;
+    color: #333;
+}
+
+#temperature {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ff6600;
+}
+
+#description {
+    font-size: 20px;
+    color: #555;
+}
+
+#icon {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
